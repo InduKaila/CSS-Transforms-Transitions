@@ -1,0 +1,29 @@
+
+
+.box_a {
+	 width: 200px;
+	 height: 200px;
+	 margin-left: 100px;
+	 margin-top: 100px;
+	 background: #000033; /*Navy blue colour*/
+	 /*Box to be rotated 45 degrees*/
+	 -webkit-transform: rotate(45deg);
+	 -ms-transform: rotate(45deg);
+	 transform: rotate(45deg);
+	 transform-origin: 50% 50% /*Added an origin centre at the centre of the square. Could add one to the top of the square etc*/ 
+	 outline: 1px solid blue;
+	 padding: 30px; /*Added padding to around the navy box*/
+	 background-clip: content-box; /*Added this so the content part of the navy box has the background colour*/
+}
+
+
+/*Added a red border box to make it easier to see the rotation of the navy coloured box*/
+.container {
+	 width: 200px;
+	 height: 200px;	  
+	 outline: 1px solid red;
+}
+
+
+
+
