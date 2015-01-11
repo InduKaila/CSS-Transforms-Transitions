@@ -43,3 +43,22 @@
 	 background-clip: content-box; /*Added this so the content part of the navy box has the background colour*/
     transform: skew(30deg, 45deg);
 }
+
+
+
+.box_one {
+	 width: 200px;
+	 height: 200px;
+	 margin-top: 200px;
+	 margin-left: 100px;
+	 background: #B2497D; /*Pink colour*/
+}
+
+
+
+.box_two {
+	 width: 200px;
+	 height: 200px;
+	 margin-left: 100px;
+	 background: #6B4226; /*Brown colour*/
+}
